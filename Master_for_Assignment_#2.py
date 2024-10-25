@@ -10,6 +10,10 @@ ALL_COORDS = ("A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "C1", "C2", "C3", 
 
 
 def level_valid(l_v) :
+    # import unicodedata
+    #    for i in l_v :
+    #        if i.unicodedata.category()[0] == "C" :
+    #            l_v = l_v[:l_v.index(i)-1]+l_v[l_v.index(i)+1:]
     l_v = l_v.strip()
     l_v = l_v.upper()
     while l_v != "E" and l_v != "H":
